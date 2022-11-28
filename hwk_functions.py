@@ -22,7 +22,12 @@ print(mult_list([0, 4, 10]))
 print(mult_list([-4, -8, -2]))
 
 # Write a Python function called rev_string() to reverse a string.
+def rev_string(my_string):
+    return my_string[::-1]
 
+print('Problem 3')
+print(rev_string('Victor'))
+print(rev_string('Hello World'))
 
 # Write a Python function called num_within() to
 # check whether a number falls in a given range.
